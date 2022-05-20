@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".countryDetail.CountryDetailFragment">
+
+    <TextView
+        android:id="@+id/static_text_view_country_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_id"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_name"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_province"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_code"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_province"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_city_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_city"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_city_code"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_lon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_lat"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_confirmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_lon"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_deaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_confirmed"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_recovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_deaths"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_active"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_recovered"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/static_text_view_country_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_active"
+        android:textColor="@color/black"
+        tools:text="Sample text" />
+
+    <TextView
+        android:id="@+id/text_view_country_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/static_text_view_country_id"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_id"
+        android:layout_toEndOf="@id/static_text_view_country_name"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_name"
+        android:layout_toEndOf="@id/static_text_view_country_code"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_province"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_code"
+        android:layout_toEndOf="@id/static_text_view_country_province"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_province"
+        android:layout_toEndOf="@id/static_text_view_country_city"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_city_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_city"
+        android:layout_toEndOf="@id/static_text_view_country_city_code"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_city_code"
+        android:layout_toEndOf="@id/static_text_view_country_lat"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_lon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_lat"
+        android:layout_toEndOf="@id/static_text_view_country_lon"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_confirmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_lon"
+        android:layout_toEndOf="@id/static_text_view_country_confirmed"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_deaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_confirmed"
+        android:layout_toEndOf="@id/static_text_view_country_deaths"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_recovered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_deaths"
+        android:layout_toEndOf="@id/static_text_view_country_recovered"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_active"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_recovered"
+        android:layout_toEndOf="@id/static_text_view_country_active"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/text_view_country_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country_active"
+        android:layout_toEndOf="@id/static_text_view_country_date"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+</RelativeLayout>

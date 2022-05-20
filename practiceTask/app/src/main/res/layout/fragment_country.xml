@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/static_text_view_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        tools:text="Country: " />
+
+    <TextView
+        android:id="@+id/text_view_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/static_text_view_country"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/static_text_view_slug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/static_text_view_country"
+        android:textColor="@color/black"
+        tools:text="Slug: " />
+
+    <TextView
+        android:id="@+id/text_view_slug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_country"
+        android:layout_toEndOf="@+id/static_text_view_slug"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+    <TextView
+        android:id="@+id/static_text_view_iso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_slug"
+        android:textColor="@color/black"
+        tools:text="ISO2: " />
+
+    <TextView
+        android:id="@+id/text_view_iso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/static_text_view_slug"
+        android:layout_toEndOf="@id/static_text_view_iso"
+        android:textColor="@color/black"
+        tools:text="Sample Text" />
+
+</RelativeLayout>
